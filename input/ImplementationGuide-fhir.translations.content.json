@@ -1,0 +1,80 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.translations.content",
+  "url": "http://example.org/content/ImplementationGuide/fhir.translations.content",
+  "version": "0.1.0",
+  "name": "LanguageDemo",
+  "title": "Multilingual Content",
+  "status": "draft",
+  "publisher": "Example Publisher",
+  "packageId": "fhir.translations.content",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "fhir.translations.langpack",
+      "version": "dev",
+      "uri": "http://example.org/langpack/ImplementationGuide/fhir.translations.langpack",
+      "id": "fhir_translations_langpack"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/EUPatient"
+        },
+        "name": "EU Patient",
+        "description": "EU Patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ml-administrativegendervs"
+        },
+        "name": "Multilingual Administrative Gender",
+        "description": "Multilingual Administrative Gender includes all codes from CS (with supplement)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/PTPatient"
+        },
+        "name": "PT Patient",
+        "description": "PT Patient",
+        "exampleCanonical": "http://example.org/content/StructureDefinition/EUPatient"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2023+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "i18n-default-lang",
+        "value": "en"
+      },
+      {
+        "code": "i18n-lang",
+        "value": "pt"
+      }
+    ]
+  }
+}

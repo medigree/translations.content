@@ -122,9 +122,8 @@ instanceOptions:
   #
   # setId: always # always | standalone-only
 
-# parameters:
-#   i18n-default-lang: en
-#   i18n-lang: 
-#     - pt
-#   translation-supplements: input/translations2
-  
+parameters:
+  i18n-default-lang: en
+  i18n-lang: 
+    - pt
+  translation-supplements: input/translations  

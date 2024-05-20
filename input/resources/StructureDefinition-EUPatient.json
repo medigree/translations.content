@@ -1,0 +1,27 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "EUPatient",
+  "url": "http://example.org/content/StructureDefinition/EUPatient",
+  "name": "EUPatient",
+  "title": "EU Patient",
+  "status": "draft",
+  "description": "EU Patient",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.gender",
+        "path": "Patient.gender",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/content/ValueSet/ml-administrativegendervs"
+        }
+      }
+    ]
+  }
+}

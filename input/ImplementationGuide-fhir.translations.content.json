@@ -74,6 +74,10 @@
       {
         "code": "i18n-lang",
         "value": "pt"
+      },
+      {
+        "code": "translation-supplements",
+        "value": "input/translations"
       }
     ]
   }

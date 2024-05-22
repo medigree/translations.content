@@ -68,6 +68,10 @@
         "value": "ci-build"
       },
       {
+        "code": "translation-sources",
+        "value": "input/translations"
+      },    
+      {
         "code": "i18n-default-lang",
         "value": "en"
       },
@@ -76,8 +80,16 @@
         "value": "pt"
       },
       {
-        "code": "translation-supplements",
-        "value": "input/translations"
+        "code": "i18n-lang",
+        "value": "es"
+      },
+      {
+        "code": "i18n-lang",
+        "value": "fr"
+      },
+      {
+        "code": "i18n-lang",
+        "value": "nl"
       }
     ]
   }

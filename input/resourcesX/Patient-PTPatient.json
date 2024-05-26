@@ -1,0 +1,11 @@
+{
+  "resourceType": "Patient",
+  "id": "PTPatient",
+  "meta": {
+    "profile": [
+      "http://example.org/content/StructureDefinition/EUPatient"
+    ]
+  },
+  "language": "pt",
+  "gender": "male"
+}

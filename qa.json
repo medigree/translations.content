@@ -1,0 +1,19 @@
+{
+  "url" : "http://example.org/content/ImplementationGuide/fhir.translations.content",
+  "name" : "LanguageDemo",
+  "title" : "Multilingual Content",
+  "description" : null,
+  "status" : "draft",
+  "package-id" : "fhir.translations.content",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 28 May, 2024 19:49:27 +0000",
+  "dateISO8601" : "2024-05-28T19:49:27+00:00",
+  "errs" : 2,
+  "warnings" : 5,
+  "hints" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2060809736
+}

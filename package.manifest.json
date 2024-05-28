@@ -1,0 +1,6 @@
+{
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20240528194838",
+  "name" : "fhir.translations.content"
+}

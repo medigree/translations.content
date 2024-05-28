@@ -1,0 +1,5 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-fhir.translations.content.json	4208	-	0	0	0	0	0	0	10	83	0	0	0	0	0	0	0	0	0	0	23	191	78	0	0	0	4	0	3
+fsh-generated/resources/Patient-PTPatient.json	198	28	1	0	0	0	0	0	0	41	0	0	0	0	0	0	0	0	0	0	6	38	16	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-EUPatient.json	932	21	0	0	0	0	0	2937	0	118	0	0	0	0	0	1	0	1	0	0	2	466	2120	0	0	0	33	0	2
+fsh-generated/resources/ValueSet-ml-administrativegendervs.json	701	17	0	0	0	0	0	0	0	107	0	0	0	0	0	0	0	0	0	0	6	29	5978	0	0	0	1	0	0

@@ -1,0 +1,266 @@
+{
+  "date" : "Mon, 08 Jul, 2024 10:59:07 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-fhir.translations.content.json",
+      "size" : 4457,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 29
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 54,
+          "length" : 20
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 124
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 804
+        },
+        {
+          "activity" : "translate",
+          "start" : 58,
+          "length" : 24
+        },
+        {
+          "activity" : "generate1",
+          "start" : 58,
+          "length" : 233
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 79
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 74,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 74,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 78,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-PTPatient.json",
+      "size" : 198,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 22
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 51,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 118
+        },
+        {
+          "activity" : "translate",
+          "start" : 58,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 58,
+          "length" : 51
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 19
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Questionnaire-PatientRegistration.json",
+      "size" : 3550,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 27
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 54,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 271
+        },
+        {
+          "activity" : "validate",
+          "start" : 57,
+          "length" : 675
+        },
+        {
+          "activity" : "translate",
+          "start" : 58,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 58,
+          "length" : 389
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 6351
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 70,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 74,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-EUPatient.json",
+      "size" : 932,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 18
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 3066
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 82
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 617
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 58,
+          "length" : 2
+        },
+        {
+          "activity" : "translate",
+          "start" : 58,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 58,
+          "length" : 484
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 1573
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 74,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 78,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ml-administrativegendervs.json",
+      "size" : 701,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 25
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 425
+        },
+        {
+          "activity" : "translate",
+          "start" : 58,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 75
+        },
+        {
+          "activity" : "generate2",
+          "start" : 69,
+          "length" : 129
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 74,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

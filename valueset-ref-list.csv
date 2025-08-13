@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/content/ValueSet/ml-administrativegendervs,null,draft,,MLAdministrativeGenderVS,Multilingual Administrative Gender,"Multilingual Administrative Gender includes all codes from CS (with supplement)",,"hl7.fhir.r4.core"
+http://example.org/content/ValueSet/ml-administrativegendervs,0.1.0,draft,,MLAdministrativeGenderVS,Multilingual Administrative Gender,"Multilingual Administrative Gender includes all codes from CS (with supplement)","StructureDefinition/EUPatient","hl7.fhir.r4.core"

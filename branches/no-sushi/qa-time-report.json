@@ -1,0 +1,215 @@
+{
+  "date" : "Wed, 22 May, 2024 16:15:56 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/input/ImplementationGuide-fhir.translations.content.json",
+      "size" : 2305,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 31,
+          "length" : 37
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 87
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 954
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 37,
+          "length" : 24
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 221
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 58
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 50,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/Patient-PTPatient.json",
+      "size" : 198,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 27
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 126
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 46
+        },
+        {
+          "activity" : "translate",
+          "start" : 37,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 49
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/StructureDefinition-EUPatient.json",
+      "size" : 706,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 20
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 31,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 31,
+          "length" : 23
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 31,
+          "length" : 2864
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 94
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 648
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 485
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 1467
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 50,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ValueSet-ml-administrativegendervs.json",
+      "size" : 701,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 35
+        },
+        {
+          "activity" : "scan",
+          "start" : 31,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 31,
+          "length" : 28
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 118
+        },
+        {
+          "activity" : "validate",
+          "start" : 34,
+          "length" : 682
+        },
+        {
+          "activity" : "translate",
+          "start" : 37,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 64
+        },
+        {
+          "activity" : "generate2",
+          "start" : 40,
+          "length" : 5541
+        }
+      ]
+    }
+  ]
+}

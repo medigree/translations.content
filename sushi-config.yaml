@@ -25,7 +25,8 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  medigree.fhir.translations.langpack.pt: dev
+#  medigree.fhir.translations.langpack.pt: dev
+  hl7.fhir.r4.pt: dev
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -127,9 +128,9 @@ parameters:
   i18n-default-lang: en
   i18n-lang: 
     - pt
-    - nl
-    - fr
-    - es
+  #   - nl
+  #   - fr
+  #   - es
 
 #   translation-supplements: input/translations2
   

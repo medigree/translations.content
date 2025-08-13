@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt" id="ImplementationGuide-medigree.fhir.translations.content" original="Resource ImplementationGuide-medigree.fhir.translations.content" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>LanguageDemo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the implementation guide.</note>
+             </notes>
+        <source>Multilingual Content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the implementation guide.</note>
+             </notes>
+        <source>Example Publisher</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>EU Patient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>EU Patient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Multilingual Administrative Gender</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Multilingual Administrative Gender includes all codes from CS (with supplement)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Patient self registration form</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Patient self registration form</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>PT Patient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>PT Patient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Home</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Index Es</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Index Pt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Issues</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Structure Definition EU Patient Intro Fr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Structure Definition EU Patient Intro Pt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Structure Definition EU Patient Notes Fr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Structure Definition EU Patient Notes Pt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Value Set Ml Administrativegendervs Intro Fr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Value Set Ml Administrativegendervs Intro Pt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Value Set Ml Administrativegendervs Notes Fr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-medigree.fhir.translations.content" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.</note>
+             </notes>
+        <source>Value Set Ml Administrativegendervs Notes Pt</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

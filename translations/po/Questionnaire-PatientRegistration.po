@@ -1,0 +1,86 @@
+
+# A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: ValueSet.name
+msgid "MLAdministrativeGenderVS"
+msgstr ""
+
+# A short, descriptive, user-friendly title for the value set.
+#: ValueSet.title
+msgid "Multilingual Administrative Gender"
+msgstr ""
+
+# A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.
+#: ValueSet.description
+msgid "Multilingual Administrative Gender includes all codes from CS (with supplement)"
+msgstr ""
+
+# A short, descriptive, user-friendly title for the questionnaire.
+#: Questionnaire.title
+msgid "Patient self registration"
+msgstr ""
+
+# The name of the organization or individual that published the questionnaire.
+#: Questionnaire.publisher
+msgid "Example Publisher"
+msgstr ""
+
+# A free text natural language description of the questionnaire from a consumer's perspective.
+#: Questionnaire.description
+msgid "Patient self registration form"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Client name"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Full name of the client"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "First or given name"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Family name"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Sex"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Birth Date"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Caregiver name"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Full name of the caregiver"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Client Phone number"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Administrative area"
+msgstr ""
+
+# The name of a section, the text of a question or text content for a display item.
+#: Questionnaire.item.text
+msgid "Health Worker"
+msgstr ""
+

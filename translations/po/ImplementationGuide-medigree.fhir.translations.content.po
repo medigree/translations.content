@@ -1,0 +1,121 @@
+
+# A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: ImplementationGuide.name
+msgid "LanguageDemo"
+msgstr ""
+
+# A short, descriptive, user-friendly title for the implementation guide.
+#: ImplementationGuide.title
+msgid "Multilingual Content"
+msgstr ""
+
+# The name of the organization or individual that published the implementation guide.
+#: ImplementationGuide.publisher
+msgid "Example Publisher"
+msgstr ""
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "EU Patient"
+msgstr ""
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "EU Patient"
+msgstr ""
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Multilingual Administrative Gender"
+msgstr ""
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Multilingual Administrative Gender includes all codes from CS (with supplement)"
+msgstr ""
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Patient self registration form"
+msgstr ""
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Patient self registration form"
+msgstr ""
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "PT Patient"
+msgstr ""
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "PT Patient"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Table of Contents"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Home"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Index Es"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Index Pt"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Issues"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Structure Definition EU Patient Intro Fr"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Structure Definition EU Patient Intro Pt"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Structure Definition EU Patient Notes Fr"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Structure Definition EU Patient Notes Pt"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Value Set Ml Administrativegendervs Intro Fr"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Value Set Ml Administrativegendervs Intro Pt"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Value Set Ml Administrativegendervs Notes Fr"
+msgstr ""
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Value Set Ml Administrativegendervs Notes Pt"
+msgstr ""
+

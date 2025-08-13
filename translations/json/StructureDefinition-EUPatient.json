@@ -1,0 +1,29 @@
+{
+  "id" : "StructureDefinition-EUPatient",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "pt",
+      "entries" : [
+        {
+          "id" : "StructureDefinition.name",
+          "context" : "A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "EUPatient",
+          "target" : "EUPatient"
+        },
+        {
+          "id" : "StructureDefinition.title",
+          "context" : "A short, descriptive, user-friendly title for the structure definition.",
+          "source" : "EU Patient",
+          "target" : "EU Patient"
+        },
+        {
+          "id" : "StructureDefinition.publisher",
+          "context" : "The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.",
+          "source" : "Example Publisher",
+          "target" : "Example Publisher"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt" id="ValueSet-ml-administrativegendervs" original="Resource ValueSet-ml-administrativegendervs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-ml-administrativegendervs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>MLAdministrativeGenderVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ml-administrativegendervs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the value set.</note>
+             </notes>
+        <source>Multilingual Administrative Gender</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ml-administrativegendervs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the value set.</note>
+             </notes>
+        <source>Example Publisher</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ml-administrativegendervs" resname="ValueSet.description">
+             <notes>
+               <note id="n1">A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.</note>
+             </notes>
+        <source>Multilingual Administrative Gender includes all codes from CS (with supplement)</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

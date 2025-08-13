@@ -1,0 +1,35 @@
+{
+  "id" : "ValueSet-ml-administrativegendervs",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "pt",
+      "entries" : [
+        {
+          "id" : "ValueSet.name",
+          "context" : "A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "MLAdministrativeGenderVS",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.title",
+          "context" : "A short, descriptive, user-friendly title for the value set.",
+          "source" : "Multilingual Administrative Gender",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.publisher",
+          "context" : "The name of the organization or individual that published the value set.",
+          "source" : "Example Publisher",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.description",
+          "context" : "A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.",
+          "source" : "Multilingual Administrative Gender includes all codes from CS (with supplement)",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

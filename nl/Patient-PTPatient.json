@@ -1,0 +1,13 @@
+{
+  "resourceType" : "Patient",
+  "id" : "PTPatient",
+  "meta" : {
+    "profile" : ["http://example.org/content/StructureDefinition/EUPatient"]
+  },
+  "language" : "nl",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"nl\" lang=\"nl\"><hr/><p><b>Dutch</b></p><hr/><p class=\"res-header-id\"><b>Gegenereerde narrative: Patient PTPatient</b></p><a name=\"nl-PTPatient\"> </a><a name=\"nl-hcPTPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Taal: pt</p><p style=\"margin-bottom: 0px\">Profiel: <a href=\"StructureDefinition-EUPatient.html\">EU Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Anonieme Patient Male, Geb.datum onbekend</p><hr/></div>"
+  },
+  "gender" : "male"
+}

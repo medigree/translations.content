@@ -1,0 +1,6 @@
+{
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20250906091957",
+  "name" : "medigree.fhir.translations.content"
+}

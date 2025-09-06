@@ -1,0 +1,29 @@
+[
+  {
+    "id" : "medigree.fhir.translations.content",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/content/ImplementationGuide/medigree.fhir.translations.content",
+    "version" : "0.1.0",
+    "name" : "LanguageDemo"
+  },
+  {
+    "id" : "PatientRegistration",
+    "type" : "Questionnaire",
+    "url" : "http://example.org/content/Questionnaire/PatientRegistration",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "EUPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/content/StructureDefinition/EUPatient",
+    "version" : "0.1.0",
+    "name" : "EUPatient"
+  },
+  {
+    "id" : "ml-administrativegendervs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+    "version" : "0.1.0",
+    "name" : "MLAdministrativeGenderVS"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MLAdministrativeGenderVS",
+      "title" : "Multilingual Administrative Gender",
+      "description" : "Multilingual Administrative Gender includes all codes from CS (with supplement)",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"]
+    }
+  ]
+}

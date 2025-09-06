@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ml-administrativegendervs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet ml-administrativegendervs</b></p><a name="ml-administrativegendervs"> </a><a name="hcml-administrativegendervs"> </a><p>This ValueSet requires the Code system Supplement <a href="https://build.fhir.org/ig/FHIR/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html">AdministrativeGender</a>.</p><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender"/>
+  </extension>
+  <url value="http://example.org/content/ValueSet/ml-administrativegendervs"/>
+  <version value="0.1.0"/>
+  <name value="MLAdministrativeGenderVS"/>
+  <title value="Multilingual Administrative Gender"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-09-06T09:19:57+00:00"/>
+  <publisher value="Example Publisher"/>
+  <description value="Multilingual Administrative Gender includes all codes from CS (with supplement)"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/administrative-gender"/>
+    </include>
+  </compose>
+</ValueSet>

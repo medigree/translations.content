@@ -1,0 +1,31 @@
+LanguageDemo : Validation Results
+=========================================
+
+err = 3, warn = 8, info = 1
+IG Publisher Version: 2.0.16
+Generated Sat Sep 06 09:21:35 UTC 2025. FHIR version 4.0.1 for medigree.fhir.translations.content#0.1.0 (canonical = http://example.org/content)
+ Build Errors : 0 / 4 / 0
+ /work/fsh-generated/resources/ImplementationGuide-medigree.fhir.translations.content : 0 / 0 / 1
+ /work/fsh-generated/resources/Patient-PTPatient : 0 / 1 / 1
+ /work/fsh-generated/resources/Questionnaire-PatientRegistration : 3 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-EUPatient : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-ml-administrativegendervs : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: 1: An HTML fragment from the set [ip-statements.xhtml, ip-statements.xhtml, ip-statements.xhtml, ip-statements.xhtml, ip-statements.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml, dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml, dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml, dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml, dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: An HTML fragment from the set [globals-table.xhtml, globals-table.xhtml, globals-table.xhtml, globals-table.xhtml, globals-table.xhtml] is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-medigree.fhir.translations.content.json ==
+== fsh-generated/resources/Patient-PTPatient.json ==
+WARNING: Patient/PTPatient: Patient: Resource has a language (pt), and the XHTML has a lang (en), but they differ
+== fsh-generated/resources/Questionnaire-PatientRegistration.json ==
+ERROR: Questionnaire/PatientRegistration: Questionnaire.meta.profile[0]: A definition could not be found for Canonical URL 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablequestionnaire'
+ERROR: Questionnaire/PatientRegistration: Questionnaire.meta.profile[1]: A definition could not be found for Canonical URL 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablequestionnaire'
+WARNING: Questionnaire/PatientRegistration: Questionnaire.text.div: The XHTML  the resource contains more than one node for each of the following node ids and anchor names: es-item.familyName (2x), es-item.fullName (2x), es-item.givenName (2x), fr-item.familyName (2x), fr-item.fullName (2x), fr-item.givenName (2x), item.familyName (2x), item.fullName (2x), item.givenName (2x), nl-item.familyName (2x), nl-item.fullName (2x), nl-item.givenName (2x), pt-item.familyName (2x), pt-item.fullName (2x), pt-item.givenName (2x)
+ERROR: Questionnaire/PatientRegistration: Questionnaire: Constraint failed: que-2: 'The link ids for groups and questions must be unique within the questionnaire (descendants().linkId.isDistinct())'
+WARNING: Questionnaire/PatientRegistration: Questionnaire.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablequestionnaire' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+WARNING: Questionnaire/PatientRegistration: Questionnaire.meta.profile[1]: Profile reference 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablequestionnaire' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-EUPatient.json ==
+INFORMATION: StructureDefinition/EUPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated/resources/ValueSet-ml-administrativegendervs.json ==

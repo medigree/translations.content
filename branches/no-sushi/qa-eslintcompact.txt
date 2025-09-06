@@ -1,0 +1,14 @@
+LanguageDemo
+=========================================
+
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/input/ImplementationGuide-fhir.translations.content.json: line 0, col 0, Info - Unused 'pt' translation 'Home' -> 'Início' (INFORMATIONAL)
+/github/workspace/input/resources/Patient-PTPatient.json: line 10, col 19, Error - Required supplement not found: http://example.org/langpack/CodeSystem/cs-en-administrative-gender (NOTFOUND)
+/github/workspace/input/resources/Patient-PTPatient.json: line 10, col 19, Error - The value provided ('male') was not found in the value set 'Multilingual Administrative Gender' (http://example.org/content/ValueSet/ml-administrativegendervs|0.1.0), and a code is required from this value set  (error message = Required supplement not found: http://example.org/langpack/CodeSystem/cs-en-administrative-gender) (CODEINVALID)
+/github/workspace/input/resources/Patient-PTPatient.json: line 0, col 0, Warning - Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues) (BUSINESSRULE)
+
+err = 2, warn = 5, info = 1
+IG Publisher Version: 1.6.9

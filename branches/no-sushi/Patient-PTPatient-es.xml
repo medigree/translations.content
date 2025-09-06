@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="PTPatient"/>
+  <meta>
+    <profile value="http://example.org/content/StructureDefinition/EUPatient"/>
+  </meta>
+  <language value="pt"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Anonymous Patient</b> Male, DoB Unknown</p><hr/></div><div xml:lang="pt" lang="pt"><hr/><p><b>Portuguese</b></p><hr/><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Anonymous Patient</b> Male, DoB Unknown</p><hr/></div><div xml:lang="es" lang="es"><hr/><p><b>Spanish</b></p><hr/><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Anonymous Patient</b> Male, DoB Unknown</p><hr/></div><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Anonymous Patient</b> Male, DoB Unknown</p><hr/></div><div xml:lang="nl" lang="nl"><hr/><p><b>Dutch</b></p><hr/><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Anonymous Patient</b> Male, DoB Unknown</p><hr/></div></div>
+  </text>
+  <gender value="male"/>
+</Patient>

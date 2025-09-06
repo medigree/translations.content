@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ml-administrativegendervs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang="pt" lang="pt"><hr/><p><b>Portuguese</b></p><hr/><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang="es" lang="es"><hr/><p><b>Spanish</b></p><hr/><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang="nl" lang="nl"><hr/><p><b>Dutch</b></p><hr/><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="http://example.org/langpack/CodeSystem/cs-en-administrative-gender"/>
+  </extension>
+  <url value="http://example.org/content/ValueSet/ml-administrativegendervs"/>
+  <version value="0.1.0"/>
+  <name value="MLAdministrativeGenderVS"/>
+  <title value="Multilingual Administrative Gender"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2024-05-22T16:15:56+00:00"/>
+  <publisher value="Editor Exemplo"/>
+  <description value="Multilingual Administrative Gender includes all codes from CS (with supplement)"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/administrative-gender"/>
+    </include>
+  </compose>
+</ValueSet>

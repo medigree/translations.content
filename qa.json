@@ -1,0 +1,19 @@
+{
+  "url" : "http://example.org/content/ImplementationGuide/medigree.fhir.translations.content",
+  "name" : "LanguageDemo",
+  "title" : "Multilingual Content",
+  "description" : "",
+  "status" : "draft",
+  "package-id" : "medigree.fhir.translations.content",
+  "ig-ver" : "0.1.0",
+  "date" : "Sat, 06 Sep, 2025 09:20:40 +0000",
+  "dateISO8601" : "2025-09-06T09:20:40+00:00",
+  "errs" : 3,
+  "warnings" : 8,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1044862424
+}

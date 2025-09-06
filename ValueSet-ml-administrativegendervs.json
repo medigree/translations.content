@@ -1,0 +1,26 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ml-administrativegendervs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ml-administrativegendervs</b></p><a name=\"ml-administrativegendervs\"> </a><a name=\"hcml-administrativegendervs\"> </a><p>This ValueSet requires the Code system Supplement <a href=\"https://build.fhir.org/ig/FHIR/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">AdministrativeGender</a>.</p><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang=\"pt\" lang=\"pt\"><hr/><p><b>Portuguese</b></p><hr/><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet ml-administrativegendervs</b></p><a name=\"pt-ml-administrativegendervs\"> </a><a name=\"pt-hcml-administrativegendervs\"> </a><p>This ValueSet requires the Code system Supplement <a href=\"https://build.fhir.org/ig/FHIR/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">AdministrativeGender</a>.</p><ul><li>Include todos os códigos definidos em <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang=\"nl\" lang=\"nl\"><hr/><p><b>Dutch</b></p><hr/><p class=\"res-header-id\"><b>Gegenereerde narrative: ValueSet ml-administrativegendervs</b></p><a name=\"nl-ml-administrativegendervs\"> </a><a name=\"nl-hcml-administrativegendervs\"> </a><p>This ValueSet requires the Code system Supplement <a href=\"https://build.fhir.org/ig/FHIR/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">AdministrativeGender</a>.</p><ul><li>Include alle codes gedefinieerd in <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs ml-administrativegendervs</b></p><a name=\"fr-ml-administrativegendervs\"> </a><a name=\"fr-hcml-administrativegendervs\"> </a><p>This ValueSet requires the Code system Supplement <a href=\"https://build.fhir.org/ig/FHIR/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">AdministrativeGender</a>.</p><ul><li>Include tous les codes définis dans <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div><div xml:lang=\"es\" lang=\"es\"><hr/><p><b>Spanish</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores ml-administrativegendervs</b></p><a name=\"es-ml-administrativegendervs\"> </a><a name=\"es-hcml-administrativegendervs\"> </a><p>This ValueSet requires the Code system Supplement <a href=\"https://build.fhir.org/ig/FHIR/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">AdministrativeGender</a>.</p><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></li></ul></div></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
+    "valueCanonical" : "http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender"
+  }],
+  "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+  "version" : "0.1.0",
+  "name" : "MLAdministrativeGenderVS",
+  "title" : "Multilingual Administrative Gender",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-09-06T09:19:57+00:00",
+  "publisher" : "Example Publisher",
+  "description" : "Multilingual Administrative Gender includes all codes from CS (with supplement)",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/administrative-gender"
+    }]
+  }
+}

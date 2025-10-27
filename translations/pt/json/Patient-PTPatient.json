@@ -1,0 +1,9 @@
+{
+  "id" : "Patient-PTPatient",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "pt"
+    }
+  ]
+}

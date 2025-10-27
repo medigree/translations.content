@@ -128,9 +128,5 @@ parameters:
   i18n-default-lang: en
   i18n-lang: 
     - pt
-    - nl
-    - fr
-    - es
-
-#   translation-supplements: input/translations2
-  
+  #   - fr
+  #   - es

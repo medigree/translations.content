@@ -1,0 +1,113 @@
+{
+  "id" : "Questionnaire-PatientRegistration",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "pt",
+      "entries" : [
+        {
+          "id" : "ValueSet.name",
+          "context" : "A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "MLAdministrativeGenderVS",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.title",
+          "context" : "A short, descriptive, user-friendly title for the value set.",
+          "source" : "Multilingual Administrative Gender",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.description",
+          "context" : "A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.",
+          "source" : "Multilingual Administrative Gender includes all codes from CS (with supplement)",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.title",
+          "context" : "A short, descriptive, user-friendly title for the questionnaire.",
+          "source" : "Patient self registration",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.publisher",
+          "context" : "The name of the organization or individual that published the questionnaire.",
+          "source" : "Example Publisher",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.description",
+          "context" : "A free text natural language description of the questionnaire from a consumer's perspective.",
+          "source" : "Patient self registration form",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Client name",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Full name of the client",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "First or given name",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Family name",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Sex",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Birth Date",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Caregiver name",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Full name of the caregiver",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Client Phone number",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Administrative area",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.item.text",
+          "context" : "The name of a section, the text of a question or text content for a display item.",
+          "source" : "Health Worker",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

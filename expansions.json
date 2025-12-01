@@ -1,0 +1,428 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "ecc9ef72-883d-48e6-bdf0-a192388e120d",
+  "meta" : {
+    "lastUpdated" : "2025-12-01T21:34:38.448+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://build.fhir.org/ig/costateixeira/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">supplement AdministrativeGender v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>male</code></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>female</code></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-other\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>other</code></td><td>Other</td><td>Other.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>unknown</code></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+      "version" : "0.1.0",
+      "name" : "MLAdministrativeGenderVS",
+      "title" : "Multilingual Administrative Gender",
+      "status" : "draft",
+      "experimental" : false,
+      "expansion" : {
+        "identifier" : "urn:uuid:000b7a0d-00d9-4b28-b6ea-20db5f7fb375",
+        "timestamp" : "2025-12-01T21:35:26.456Z",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "unknown",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://build.fhir.org/ig/costateixeira/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">supplement AdministrativeGender v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>male</code></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>female</code></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-other\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>other</code></td><td>Other</td><td>Other.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>unknown</code></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+      "version" : "0.1.0",
+      "name" : "MLAdministrativeGenderVS",
+      "title" : "Multilingual Administrative Gender",
+      "status" : "draft",
+      "experimental" : false,
+      "expansion" : {
+        "identifier" : "urn:uuid:000b7a0d-00d9-4b28-b6ea-20db5f7fb375",
+        "timestamp" : "2025-12-01T21:35:26.456Z",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "unknown",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansão a partir de tx.fhir.org com base em:</p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://build.fhir.org/ig/costateixeira/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">supplement AdministrativeGender v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Este conjunto de valores contém 4 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (pt)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>male</code></td><td>Masculino</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Masculino&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Masculino&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>female</code></td><td>Feminino</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Feminino&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Feminino&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-other\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>other</code></td><td>Outros</td><td>Other.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Outros&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Outros&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>unknown</code></td><td>Desconhecido</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Desconhecido&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Desconhecido&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+      "version" : "0.1.0",
+      "name" : "MLAdministrativeGenderVS",
+      "title" : "Multilingual Administrative Gender",
+      "status" : "draft",
+      "experimental" : false,
+      "expansion" : {
+        "identifier" : "urn:uuid:61ac6293-4fe3-4a96-adc7-871d159694e8",
+        "timestamp" : "2025-12-01T21:35:27.456Z",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "pt"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Masculino"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Feminino"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Outros"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "unknown",
+          "display" : "Desconhecido"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://build.fhir.org/ig/costateixeira/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">supplement AdministrativeGender v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>male</code></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>female</code></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-other\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>other</code></td><td>Other</td><td>Other.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>unknown</code></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+      "version" : "0.1.0",
+      "name" : "MLAdministrativeGenderVS",
+      "title" : "Multilingual Administrative Gender",
+      "status" : "draft",
+      "experimental" : false,
+      "expansion" : {
+        "identifier" : "urn:uuid:000b7a0d-00d9-4b28-b6ea-20db5f7fb375",
+        "timestamp" : "2025-12-01T21:35:26.456Z",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "unknown",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://build.fhir.org/ig/costateixeira/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">supplement AdministrativeGender v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>male</code></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>female</code></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-other\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>other</code></td><td>Other</td><td>Other.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>unknown</code></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+      "version" : "0.1.0",
+      "name" : "MLAdministrativeGenderVS",
+      "title" : "Multilingual Administrative Gender",
+      "status" : "draft",
+      "experimental" : false,
+      "expansion" : {
+        "identifier" : "urn:uuid:000b7a0d-00d9-4b28-b6ea-20db5f7fb375",
+        "timestamp" : "2025-12-01T21:35:26.456Z",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "unknown",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansão a partir de tx.fhir.org com base em:</p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://build.fhir.org/ig/costateixeira/hl7.fhir.r4.pt/CodeSystem-cs-pt-administrative-gender.html\">supplement AdministrativeGender v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Este conjunto de valores contém 4 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (pt)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>male</code></td><td>Masculino</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Masculino&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Masculino&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>female</code></td><td>Feminino</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Feminino&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Feminino&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-other\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>other</code></td><td>Outros</td><td>Other.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Outros&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Outros&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>unknown</code></td><td>Desconhecido</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Desconhecido&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Desconhecido&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://example.org/content/ValueSet/ml-administrativegendervs",
+      "version" : "0.1.0",
+      "name" : "MLAdministrativeGenderVS",
+      "title" : "Multilingual Administrative Gender",
+      "status" : "draft",
+      "experimental" : false,
+      "expansion" : {
+        "identifier" : "urn:uuid:61ac6293-4fe3-4a96-adc7-871d159694e8",
+        "timestamp" : "2025-12-01T21:35:27.456Z",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "pt"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "http://hl7.org/fhir/langs/CodeSystem/cs-pt-administrative-gender|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Masculino"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Feminino"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Outros"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "unknown",
+          "display" : "Desconhecido"
+        }]
+      }
+    }
+  }]
+}

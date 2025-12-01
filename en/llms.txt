@@ -1,0 +1,34 @@
+# medigree.fhir.translations.content#0.1.0: Multilingual Content(en)
+
+## Pages
+
+* [Home](index.md)
+* [Index Es](index-es.md)
+* [ValueSet](ValueSet-PatientRegistration_ml-administrativegendervs.md)
+* [Artifacts Summary](artifacts.md)
+* [](ValueSet-PatientRegistration_ml-administrativegendervs-testing.md)
+* [ValueSet](ValueSet-PatientRegistration_ml-administrativegendervs.ai.md)
+* [Issues](issues.md)
+* [Index Pt](index-pt.md)
+
+## Resources
+
+### ValueSets
+
+* [Multilingual Administrative Gender](ValueSet-ml-administrativegendervs.md)
+
+### Resource Profiles
+
+* [EU Patient](StructureDefinition-EUPatient.md)
+
+### ImplementationGuides
+
+* [Multilingual Content](ImplementationGuide-medigree.fhir.translations.content.md)
+
+### Questionnaires
+
+* [Patient self registration](Questionnaire-PatientRegistration.md)
+
+### Examples
+
+* [PTPatient (Patient)](Patient-PTPatient.md)

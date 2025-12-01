@@ -1,0 +1,5 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/input/ImplementationGuide-fhir.translations.content.json	2305	-	0	0	0	0	0	0	26	87	0	0	0	0	0	0	0	1	0	0	24	221	58	0	0	1	2	0	1
+input/resources/Patient-PTPatient.json	198	27	0	0	0	0	0	0	0	126	0	0	0	0	0	0	0	0	0	0	7	49	12	0	0	0	0	0	0
+input/resources/StructureDefinition-EUPatient.json	706	20	1	0	0	0	0	2864	0	94	0	0	0	0	0	0	0	1	0	0	2	485	1467	0	0	0	12	0	0
+input/resources/ValueSet-ml-administrativegendervs.json	701	35	0	0	0	0	0	0	0	118	0	0	0	0	0	0	0	0	0	0	8	64	5541	0	0	0	0	0	0

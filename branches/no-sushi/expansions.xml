@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="20a58946-33b9-4473-865e-c969dd924d0e"/>
+  <meta>
+    <lastUpdated value="2024-05-22T16:15:56.740+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/content/ValueSet/ml-administrativegendervs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on:</p>
+              <ul>
+                <li>
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="https://build.fhir.org/ig/medigree/translations.langpack/CodeSystem-cs-en-administrative-gender.html">supplement AdministrativeGender (English translation) v0.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-male"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Male</td>
+                <td>
+                  <div>
+                    <p>Male.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-female"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Female</td>
+                <td>
+                  <div>
+                    <p>Female.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-other"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Other</td>
+                <td>
+                  <div>
+                    <p>Other.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-unknown"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Unknown</td>
+                <td>
+                  <div>
+                    <p>Unknown.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/content/ValueSet/ml-administrativegendervs"/>
+        <version value="0.1.0"/>
+        <name value="MLAdministrativeGenderVS"/>
+        <title value="Multilingual Administrative Gender"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2024-05-22T16:15:56+00:00"/>
+        <publisher>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="pt"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Editor Exemplo"/>
+            </extension>
+          </extension>
+        </publisher>
+        <expansion>
+          <identifier value="urn:uuid:ac52c419-76be-4bbf-b2d8-1c6b8b2cf506"/>
+          <timestamp value="2024-05-22T16:16:11.859Z"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="used-supplement"/>
+            <valueUri value="http://example.org/langpack/CodeSystem/cs-en-administrative-gender|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.org/langpack/CodeSystem/cs-en-administrative-gender|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

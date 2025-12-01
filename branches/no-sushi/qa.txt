@@ -1,0 +1,25 @@
+LanguageDemo : Validation Results
+=========================================
+
+err = 2, warn = 5, info = 1
+IG Publisher Version: 1.6.9
+Generated Wed May 22 16:16:18 UTC 2024. FHIR version 4.0.1 for fhir.translations.content#0.1.0 (canonical = http://example.org/content)
+ Build Errors : 0 / 4 / 0
+ /github/workspace/input/ImplementationGuide-fhir.translations.content : 0 / 0 / 2
+ /github/workspace/input/resources/Patient-PTPatient : 2 / 1 / 1
+ /github/workspace/input/resources/StructureDefinition-EUPatient : 0 / 0 / 1
+ /github/workspace/input/resources/ValueSet-ml-administrativegendervs : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== input/ImplementationGuide-fhir.translations.content.json ==
+INFORMATION: ImplementationGuide.definition.page.title: Unused 'pt' translation 'Home' -> 'Início'
+== input/resources/Patient-PTPatient.json ==
+ERROR: Patient/PTPatient: Patient.gender: Required supplement not found: http://example.org/langpack/CodeSystem/cs-en-administrative-gender
+ERROR: Patient/PTPatient: Patient.gender: The value provided ('male') was not found in the value set 'Multilingual Administrative Gender' (http://example.org/content/ValueSet/ml-administrativegendervs|0.1.0), and a code is required from this value set  (error message = Required supplement not found: http://example.org/langpack/CodeSystem/cs-en-administrative-gender)
+WARNING: Patient/PTPatient: Patient: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/StructureDefinition-EUPatient.json ==
+== input/resources/ValueSet-ml-administrativegendervs.json ==
